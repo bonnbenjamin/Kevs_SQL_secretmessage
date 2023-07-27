@@ -1,3 +1,12 @@
+## As you already know, these lines of code i pasted from Stack O and just hope it works, most i could do was able to put our own filename into it.
+## I was lucky enough the code (kinda) works and pull out the info in there and I took a peak, then a guess.
+## All in all I still feel im very inadequate in this particular skill here.
+
+## None of the work below is mine.
+
+## i found 3 solutions and left the one that works for me #2 uncommented, you can check the rest too.
+
+#1   #########################################################
 # # loading in modules
 # import sqlite3
 #
@@ -20,7 +29,9 @@
 # # Be sure to close the connection
 # con.close()
 
-##################################################
+
+
+#2   #################################################
 
 import pandas as pd
 import sqlite3
@@ -40,7 +51,10 @@ df = pd.read_sql_query('SELECT * FROM SUCCESS_MESSAGE', conn)
 print(df)
 conn.close()
 
-##############################
+
+
+
+#3   #############################
 
 # import hashlib
 #
